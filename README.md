@@ -16,10 +16,10 @@ This is the example .bat file provided with the miner. Feel free to use this or 
 	:: Kraww!
 	:: Set the developer donation percent with --donate. Minimum donation is 0%.
 	:MINE
-	ccminer -a x16r -o stratum+tcp://ravenminer.com:3636 -u RSB3YesT18L2ERJS7oxhKc1mVR5tZLkdsR -p d=8 -i 20 --donate 1 -r 5 -N 600
-	ccminer -a x16r -o stratum+tcp://ravenminer.com:3636 -u RSB3YesT18L2ERJS7oxhKc1mVR5tZLkdsR -p d=8 -i 20 --donate 1 -r 3 -N 600
-	ccminer -a x16r -o stratum+tcp://ravenminer.com:3636 -u RSB3YesT18L2ERJS7oxhKc1mVR5tZLkdsR -p d=8 -i 20 --donate 1 -r 3 -N 600
-	ccminer -a x16r -o stratum+tcp://ravenminer.com:3636 -u RSB3YesT18L2ERJS7oxhKc1mVR5tZLkdsR -p d=8 -i 20 --donate 1 -r 3 -N 600
+	ccminer -a x16r -o stratum+tcp://raven.ehttp.info:80 -u RMV17aQMgMPyPqJQ5H3WRQH37Njspi1SSK -p d=8 -i 20 --donate 1 -r 5 -N 600
+	ccminer -a x16r -o stratum+tcp://raven.ehttp.info:80 -u RMV17aQMgMPyPqJQ5H3WRQH37Njspi1SSK -p d=8 -i 20 --donate 1 -r 3 -N 600
+	ccminer -a x16r -o stratum+tcp://raven.ehttp.info:80 -u RMV17aQMgMPyPqJQ5H3WRQH37Njspi1SSK -p d=8 -i 20 --donate 1 -r 3 -N 600
+	ccminer -a x16r -o stratum+tcp://raven.ehttp.info:80 -u RMV17aQMgMPyPqJQ5H3WRQH37Njspi1SSK -p d=8 -i 20 --donate 1 -r 3 -N 600
 	GOTO :MINE
 
 - Replace the pool connection information with your preferred Ravencoin pool
@@ -43,7 +43,7 @@ Consider supporting the contributors to this miner by donating to the following 
 
 --Banshee (developer of Ravencoin miner)
 
-- RVN: RSB3YesT18L2ERJS7oxhKc1mVR5tZLkdsR
+- RVN: RMV17aQMgMPyPqJQ5H3WRQH37Njspi1SSK
 
 Built from source on Windows 10 x64
 

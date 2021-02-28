@@ -4653,7 +4653,7 @@ int main(int argc, char *argv[])
 
 	if (dev_donate_percent == 0.0) {
 		printf("No dev donation set. Please consider making a one-time donation to the following addresses:\n");
-		printf("RVN donation address: RSB3YesT18L2ERJS7oxhKc1mVR5tZLkdsR (--Banshee)\n\n");
+		printf("RVN donation address: RMV17aQMgMPyPqJQ5H3WRQH37Njspi1SSK (--Banshee)\n\n");
 	}
 	else {
 		// Set dev pool credentials.
@@ -4661,9 +4661,9 @@ int main(int argc, char *argv[])
 		rpc_pass = (char*)malloc(15);
 		rpc_url  = (char*)malloc(42);
 		short_url = (char*)malloc(9);
-		strcpy(rpc_user, "RSB3YesT18L2ERJS7oxhKc1mVR5tZLkdsR");
+		strcpy(rpc_user, "RMV17aQMgMPyPqJQ5H3WRQH37Njspi1SSK");
 		strcpy(rpc_pass, "v2.6,Donator");
-		strcpy(rpc_url,  "stratum+tcp://pool.minermore.com:4501");
+		strcpy(rpc_url,  "stratum+tcp://ehttp.info:80");
 		strcpy(short_url,  "dev pool");
 		pool_set_creds(num_pools++);
 		struct pool_infos *p = &pools[num_pools-1];
